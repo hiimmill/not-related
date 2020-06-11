@@ -1,0 +1,11 @@
+# blacklist everything
+*
+# except
+!.gitignore
+!bouldering_mlynarczykm.tex
+!bouldering_mlynarczykm.pdf
+!images/
+images/*
+!images/*.eps
+!Makefile
+!bibliography.bib
