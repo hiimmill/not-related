@@ -9,3 +9,4 @@ images/*
 !images/*.eps
 !Makefile
 !bibliography.bib
+!README.md
