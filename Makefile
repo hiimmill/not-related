@@ -1,7 +1,8 @@
 TEX=bouldering_mlynarczykm
+VIEWER=mupdf
 pdf:
 	rubber -d ${TEX}
-	mupdf ${TEX}.pdf
+	${VIEWER} ${TEX}.pdf
 	make clean
 clean:
 	rubber --clean ${TEX}
